@@ -1,0 +1,46 @@
+.purple{
+  color: purple;
+}
+.dropdown-menu{
+  font-family: epilogue;
+  font-size: 18px !important;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.btn{
+  border-radius:  10px !important;
+  font-weight: 500;
+}
+.learn{
+  font-weight: 700;
+}
+.remote h1{
+  font-weight: 900;
+  font-size: 3000 !important;
+  margin-top: 15% !important;
+}
+.text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px !important;
+}
+.remote{
+  margin-left: 10% !important;
+}
+ @media only screen and (max-width:769px){
+  .body-bg {
+    display:flex !important;
+    flex-direction: column;
+  }
+  .body-bg img{
+    order: 1 !important;
+  }
+  .remote{
+    order: 2 !important;
+  }
+  .learn{
+    background: black;
+    color:white
+  }
+  .none{
+    display: none;
+  }
+ }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid links">
+      <a class="navbar-brand fw-bold fs-2" href="#">snap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu rounded-3 opacity-75" aria-labelledby="navbarDropdown">
+              <li class="d-flex"><a class="dropdown-item" href="#"> <i class="bi bi-calendar2-range mx-3 link-primary"></i>Todo List</a></li>
+              <li class="d-flex"><a class="dropdown-item" href="#">  <i class="bi bi-calendar-event-fill mx-3 link-primary"></i>Calender</a></li>
+              <li class="d-flex"><a class="dropdown-item" href="#"> <i class="bi bi-bell-fill mx-3 link-warning"></i>Reminders</a></li>
+              <li class="d-flex"><a class="dropdown-item" href="#"> <i class="bi bi-clock-fill purple mx-3"></i>Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Company
+            </a>
+            <ul class="dropdown-menu opacity-75" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn mx-3" type="submit">Login</button>
+          <button class="btn btn-outline-dark rounded" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="body-bg container-fluid d-lg-flex">
+    <div class="remote mx-5 mt-5">
+      <h1 class="fw-bolder d-md-none none">Make <br> remote work</h1>
+      <h1 class="fw-bolder d-lg-none">Make remote work</h1>
+      <p class="mt-5 opacity-50 text">Get your team in sync, no matter your location. <br>
+      Streamline processes create team rituals, and <br> watch productivity soar.</p>
+      <button class="rounded btn-outline-dark btn learn mt-5">Learn more</button>
+
+      <div class="companies d-flex mt-5">
+        <h3 class="opacity-50 d-flex"> <i class="bi bi-dot"></i>databiz</h3>
+        <h3 class="mx-3 opacity-50">audio <br> phile</h3>
+        <h3 class="mx-3 opacity-50">meet</h3>
+        <h3 class="mx-3 opacity-50">maker</h3>
+      </div>
+    </div>
+      <img src="./images/image-hero-desktop.png" alt="" width="400px">
+  </div>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ALAO MARTHA</a>.
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
